@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccc;
+
+}
+#header{
+	height: 120px;
+	text-align: center;
+	font-size:700%;
+
+}
+#header p {
+	font-size: 90px;	
+}
+.box{
+	width: 50%;
+	height: 140px;
+	float:left;
+	
+
+} 
+.clearfix{
+	clear: both;	
+}
+.logoimg{
+	width:300px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+.imgq{
+text-align:left;
+font-family: 'Yellowtail', cursive;
+	border: solid green;
+	font-size: 30px;
+}
+.img1{
+	width: 90px;
+
+}
+.quotes{
+	font-size:40px;
+	font-family: 'Jomhuria', cursive;
+	text-align: center;
+}
+.quotestxt{
+	font-family: 'Yellowtail', cursive;
+}
+.imgq3{
+	border: solid green;
+	font-size:30px;
+ font-family: 'Yellowtail', cursive;
+ text-align: center;
+}
+.imgq2{
+	text-align:right;
+		font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+		border: solid green;
+
+
+}
+a{
+	text-decoration: none;
+	background-color: gray;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.ygahed{
+	text-align: center;
+	font-size: 90px;
+}
+.ygamp{
+	font-size: 30px;
+}
+span{
+	text-align: center;
+}
+a:hover{
+	background-color: #9E9B9B;
+}
+@media screen (max-width:960px;)
+{
+	html{
+		width: auto;
+		}
+	}
+}
